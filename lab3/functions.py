@@ -116,3 +116,132 @@
 # Good job, KBTU! You guessed my number in 3 guesses!
 # Create a python file and import some of the functions from the above 13 tasks and try to use them.
 
+
+
+# temp = input("Input the temperature you like to convert? (e.g., 45F, 102C etc.) : ")
+
+# # Extract the numerical part of the temperature and convert it to an integer
+# degree = int(temp[:-1])
+
+# # Extract the convention part of the temperature input (either 'C' or 'F')
+# i_convention = temp[-1]
+
+# # Check if the input convention is in uppercase 'C' (Celsius)
+# if i_convention.upper() == "C":
+#     # Convert the Celsius temperature to Fahrenheit
+#     result = int(round((9 * degree) / 5 + 32))
+#     o_convention = "Fahrenheit"  # Set the output convention as Fahrenheit
+# # Check if the input convention is in uppercase 'F' (Fahrenheit)
+# elif i_convention.upper() == "F":
+    
+#     result = int(round((degree - 32) * 5 / 9))
+#     o_convention = "Celsius"  
+# else:
+  
+#     print("Input proper convention.")
+#     quit()
+
+# # Display the converted temperature in the specified output convention
+# print("The temperature in", o_convention, "is", result, "degrees.") 
+
+# из цельсии в фаренгейты и конвертируйте в список с темпиратурами map
+
+
+# def myfunc(Celsuis):
+# #   return len(Celsuis)
+# return (5/9)*(F-32)
+
+#  F = 93
+#  Celsius = myfunc(F)
+
+#  print("C is " + Celsius)
+
+# x = map(myfunc, ('celsius', 'farengeit', 'temperature'))
+
+# print(x)
+
+# #convert the map into a list, for readability:
+# print(list(x))
+
+
+
+
+
+
+
+
+
+#10
+def signiflist(S)
+    x=[]
+    for i in s:
+        if i not in x:
+            x.append(i)
+            return x
+        print(signiflist[1,2,3,4,5,6,7,8])
+
+
+
+
+
+#11
+def isPal(string):
+    leftpos = 0
+    rightpos = len(string)-1
+    while rightpos >=leftpos:
+        if not string[leftpos] == string[rightpos]:
+            return False
+        leftpos +=1
+        rightpos -=1
+
+
+#12
+def histogram(inputList):
+ 
+    for i in range(len(inputList)):
+        print (inputList[i]*'*')
+ 
+ 
+List = [4,9,7]
+ 
+histogram(List)
+
+
+
+
+
+#13
+import random, sys
+
+
+def guess_number(num):
+    random_number = random.randint(1,20)
+    if random_number == num:
+        print (" guess was ok it was")
+        return 1 
+    else:
+        print (" U mistake here it was" + str(random_number))
+        	return 0
+    
+
+if __name__=="__main__":
+    
+    name = str(raw_input("what is your name ?:"))
+    print 
+    print ("Well"+name+ "I am thinking of a number between 1 and 20.")
+    for i in range(0, 5):
+        num = int(raw_input("Take a  guess \n "))
+	result = guess_number(num)
+	if result:
+	    sys.exit(1)
+
+#14
+
+##
+def celsius(fareng):
+      return (fareng - 32)*(5/9)
+x = map(fareng,("F"))
+def Farengeit(celsius):
+   return ((celsius*(9/5)) + 32)
+x = map(Farengeit,("C"))
+
