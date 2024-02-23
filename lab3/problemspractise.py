@@ -52,3 +52,15 @@
 #   return number + by
 
 # print(increment(2,by =1))
+
+# a = "Hello, World!"
+# print(len(a))
+
+# txt = "The best things in life are free!"
+# print("free" in txt)
+
+# fruits = ['apple', 'banana', 'cherry']
+
+# x = fruits.index("cherry")
+
+# print(x)

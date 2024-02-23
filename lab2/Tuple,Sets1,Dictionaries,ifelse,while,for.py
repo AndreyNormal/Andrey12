@@ -228,12 +228,12 @@
 
 #     myfunc()
 
-x = "awesome"
+# x = "awesome"
 
-def myfunc():
-  global x
-  x = "fantastic"
+# def myfunc():
+#   global x
+#   x = "fantastic"
 
-myfunc()
+# myfunc()
 
-print("Python is " + x)
+# print("Python is " + x)
